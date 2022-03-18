@@ -1,0 +1,19 @@
+// Programa que calcula el área de un triángulo
+// Este es un programa que puede obtener el área de un rectángulo
+// Cesar Hernández
+// 18 de marzo de 2022
+Proceso programa_area_rectangulo 
+	Escribir "Programa que calcula el area de un ractangulo"; // Ponemos el nombre del programa 
+	Escribir ""; // Dejamos un espacio entre el título y la instrucción
+	b<-0; // Asignamos un valor nulo para la base
+	h<-0; // Asignamos un valor nulo para la altura
+	a<-0; // Asignamos un valor nulo para el área
+	Escribir "Por favor, ingresa el valor de la base:"; // Escribimos la primera instrucción
+	Leer b; // El usuario va a ingresar el valor de la base
+	Escribir "Por favor, ingresa el valor de la altura: "; // Escribimos la primera instrucción
+	Leer h; // El usuario va a ingresar el valor de la altura
+	a<-b*h; // Realizamos la multiplicación de la base por la altura
+	Escribir "El valor del area del rectangulo es: ", a; // Imprimimos el valor del área
+	Escribir ""; // Dejamos un espacio entre el resultado y el mensaje de despedida
+	Escribir "¡Muchas gracias por usar el programa que calcula el area de un ractangulo!"; // Escribimos el mensaje de despedida
+FinProceso
