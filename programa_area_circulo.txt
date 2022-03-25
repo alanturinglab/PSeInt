@@ -1,0 +1,14 @@
+Proceso area_circulo
+	Escribir "Hola, este es el programa que te permite calcular el area de un circulo";
+	Escribir "";
+	pi<-3.14;
+	r<-0;
+	a<-0;
+	Escribir "Proporciona el radio del circulo:";
+	Leer r;
+	a<-pi*r^2; 
+	Escribir "";
+	Escribir "El area de un circulo con radio ", r, " es igual a: ", a;
+	Escribir "";
+	Escribir "Muchas gracias por utilizar el programa que calcula el area de un circulo";
+FinProceso
