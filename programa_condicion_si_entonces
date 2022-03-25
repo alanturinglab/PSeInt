@@ -1,0 +1,19 @@
+Proceso condicion_si_entonces
+	c_basica<-Falso
+	edad<-0
+	Escribir "Escribe Veradero o Falso segun sea el caso";
+	Escribir "";
+	Escribir "Tienes conocimienos basicos de computacion?";
+	Leer c_basica;
+	Si c_basica=Verdadero Entonces
+		Escribir "Ingresa tu edad:";
+		Leer edad;
+		Si edad>=17 Entonces
+			Escribir "Felicidades, te puedes inscribir";
+		Sino
+			Escribir "Lo sentimos, no te puedes inscribir, aun eres muy joven";
+		FinSi
+	Sino
+		Escribir "Lo sentimos, no te puedes inscribir, necesitas conocimientos basicos de computacion";
+	FinSi
+FinProceso
