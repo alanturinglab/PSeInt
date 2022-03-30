@@ -1,0 +1,19 @@
+Proceso programa_promedio_edades_por_cesar_hernandez
+	numero<-0;
+	edad<-0;
+	suma<-0;
+	division<-0;
+	promedio<-0;
+	auxiliar<-0;
+	Escribir "Ingrese el numero total de alumnos:";
+	Leer numero;
+	auxiliar<-numero;
+	Repetir
+		Escribir "Ingrese la edad del alumno:";
+		Leer edad;
+		suma<-suma+edad;
+		numero<-numero-1;
+	Hasta Que numero=0
+	promedio<-suma/auxiliar;
+	Escribir "El promedio de las edades de los alumnos es: ", promedio;
+FinProceso

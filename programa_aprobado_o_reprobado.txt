@@ -1,0 +1,15 @@
+Proceso programa_aprobado_o_reprobado_por_cesar_hernandez //Escribimos el título
+	calificacion<-0; //Creamos la variable calificación
+	Escribir "Ingrese la calificacion obtenida: "; //Escribimos la instrucción
+	Leer calificacion; //Función leer para ingresar la calificación
+	Si calificacion<=7 y calificacion>0 Entonces //Primera condición
+		Escribir "La calificacion ingresada es valida";
+		Si calificacion>=4 Entonces //Segunda condición
+			Escribir "Felicidades, usted esta aprobado"; //Escribimos el resultado
+		Sino
+			Escribir "Es una pena, usted esta reprobado"; //Escribimos el resultado
+		FinSi
+	Sino
+		Escribir "La calificacion ingresada no es valida"; //Escribimos el resultado
+	FinSi
+FinProceso
